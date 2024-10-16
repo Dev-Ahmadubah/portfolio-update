@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Ahmad",
   initials: "AD",
-  url: "",
+  url: "https://dillion.io",
   location: "",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
@@ -128,7 +128,7 @@ export const DATA = {
     {
       title: "Culgust",
       href: "https://culgust.netlify.app/",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "",
       active: true,
       description: "Designed, developed a food recipe web app",
       technologies: ["React", "Javascript", "TailwindCSS", "Spoonacular Api"],
@@ -145,7 +145,7 @@ export const DATA = {
     {
       title: "Bank App Landing Page",
       href: "  https://bankapplandingpage.netlify.app/",
-      dates: "June 2023 - Present",
+      dates: "",
       active: true,
       description: "Designed, developed a food recipe web app ",
       technologies: ["TailwindCSS", "Javascript"],
@@ -187,33 +187,28 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Hoop Master",
+      href: "",
+      dates: "",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Developed a Basketball workout app that help hoopers to elevate thier games",
       technologies: [
-        "Next.js",
+        "React Native",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "NativeWind",
+        "Firebase",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      video: "",
     },
   ],
   hackathons: [
@@ -223,8 +218,7 @@ export const DATA = {
       location: "Github",
       description:
         "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+      image: "",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
@@ -234,8 +228,7 @@ export const DATA = {
       location: "Github",
       description:
         "Developed a mobile application which delivers university campus wide events in real time to all students.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+      image: "",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
@@ -246,8 +239,7 @@ export const DATA = {
       description:
         "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
       icon: "public",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
+      image: "",
       links: [],
     },
     {
@@ -256,8 +248,7 @@ export const DATA = {
       location: "San Francisco, California",
       description:
         "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+      image: "",
       links: [
         {
           title: "Github",
