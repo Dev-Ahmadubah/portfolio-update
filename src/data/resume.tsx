@@ -10,13 +10,17 @@ export const DATA = {
   description:
     "Frontend Engineer. I love building things and helping people. Very active on Basketball Court🏀.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "Hello there, I'm Ahmad, I design web and mobile applications that are user-friendly, beautiful and convert your target audience.",
   avatarUrl: "/pp.jpg",
   skills: [
     "React",
     "Next.js",
     "Javascript",
     "Typescript",
+    "React Native",
+    "Expo",
+    "Redux",
+    "Firebase",
     "Node.js",
     "Figma",
     "Photoshop",
@@ -147,7 +151,7 @@ export const DATA = {
       href: "  https://bankapplandingpage.netlify.app/",
       dates: "",
       active: true,
-      description: "Designed, developed a food recipe web app ",
+      description: "Designed, developed a landing page for a bank app",
       technologies: ["TailwindCSS", "Javascript"],
       links: [
         {
@@ -169,7 +173,7 @@ export const DATA = {
       href: "https://color-muse.vercel.app/",
       dates: "April 2023 - September 2023",
       active: true,
-      description: "Developed an open-source logging and analy",
+      description: "Developed a color generator app",
       technologies: ["Next.js", "Javascript", "TailwindCSS"],
       links: [
         {
@@ -199,6 +203,7 @@ export const DATA = {
         "NativeWind",
         "Firebase",
         "TailwindCSS",
+        "Open AI"
       ],
       links: [
         {
@@ -207,55 +212,55 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/hoop-master.png",
       video: "",
     },
   ],
-  hackathons: [
-    {
-      title: "Dev Hunt",
-      dates: "November 23rd - 25th, 2018",
-      location: "Github",
-      description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image: "",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
-    },
-    {
-      title: "Float UI",
-      dates: "Open Source",
-      location: "Github",
-      description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
-      image: "",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
-    },
-    {
-      title: "Mighty Meld ",
-      dates: "Hackathon",
-      location: "San Francisco, California",
-      description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
-      icon: "public",
-      image: "",
-      links: [],
-    },
-    {
-      title: "DeveloperWeek Hackathon",
-      dates: "February 3rd - 4th, 2018",
-      location: "San Francisco, California",
-      description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-      image: "",
-      links: [
-        {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
-        },
-      ],
-    },
-  ],
+  // hackathons: [
+  //   {
+  //     title: "Dev Hunt",
+  //     dates: "November 23rd - 25th, 2018",
+  //     location: "Github",
+  //     description:
+  //       "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+  //     image: "",
+  //     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+  //     links: [],
+  //   },
+  //   {
+  //     title: "Float UI",
+  //     dates: "Open Source",
+  //     location: "Github",
+  //     description:
+  //       "Developed a mobile application which delivers university campus wide events in real time to all students.",
+  //     image: "",
+  //     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+  //     links: [],
+  //   },
+  //   {
+  //     title: "Mighty Meld ",
+  //     dates: "Hackathon",
+  //     location: "San Francisco, California",
+  //     description:
+  //       "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+  //     icon: "public",
+  //     image: "",
+  //     links: [],
+  //   },
+  //   {
+  //     title: "DeveloperWeek Hackathon",
+  //     dates: "February 3rd - 4th, 2018",
+  //     location: "San Francisco, California",
+  //     description:
+  //       "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
+  //     image: "",
+  //     links: [
+  //       {
+  //         title: "Github",
+  //         icon: <Icons.github className="h-4 w-4" />,
+  //         href: "https://github.com/cryptotrends/cryptotrends",
+  //       },
+  //     ],
+  //   },
+  // ],
 } as const;
