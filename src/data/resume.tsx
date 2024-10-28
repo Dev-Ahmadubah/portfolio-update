@@ -21,6 +21,7 @@ export const DATA = {
     "Expo",
     "Redux",
     "Firebase",
+    "Tanstack",
     "Node.js",
     "Figma",
     "Photoshop",
@@ -73,10 +74,10 @@ export const DATA = {
       href: "",
       badges: [],
       location: "On-Site",
-      title: "Frontend Engineer",
+      title: "Frontend Developer",
       logoUrl: "",
       start: "Oct 2021",
-      end: "Apr 2022",
+      end: "Aug 2023",
       description:
         "I worked with different teams to create pixel-perfect UI components, improving user satisfaction by 85%. I optimized the website’s code, reducing load times by 30% and enhancing the user experience. I also implemented a front-end caching strategy that made the app 70% more responsive and reduced server load. Additionally, I mentored interns in web development, improving the quality of their projects by 80%. Overall, I contributed to over 15 projects, delivering impactful results for the organization.",
     },
@@ -90,7 +91,7 @@ export const DATA = {
       start: "Nov 2023",
       end: "Oct 2024",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "I integrated Redux for state management, optimizing application performance and reducing load times by 47%. I developed and implemented React components using React Router to improve navigation and user experience. I actively participated in code reviews, providing constructive feedback and ensuring adherence to best practices. I also enhanced data extraction and processing by creating reusable code snippets for future projects. Furthermore, I collaborated with team members to improve backend integration by optimizing data workflows and processes.",
     },
     {
       company: "Mighty Meld",
@@ -102,21 +103,9 @@ export const DATA = {
       start: "March 2024",
       end: "May 2024",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "I provided actionable feedback that led to key improvements in product usability. I collaborated closely with the development team to share user experience insights and suggest enhancements. I also took part in product review sessions, offering insights to boost functionality and user satisfaction.",
     },
 
-    {
-      company: "Boomerang",
-      href: "",
-      badges: [],
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/",
-      start: "JUly 2024",
-      end: "Present",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
   ],
   education: [
     {
@@ -129,6 +118,23 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Boomerang",
+      href: "https://culgust.netlify.app/",
+      dates: "",
+      active: true,
+      description: "A customer loyalty program ",
+      technologies: ["React", "Typescript", "TailwindCSS", "Firebase", "Tanstack"],
+      links: [
+        {
+          type: "Website",
+          href: "https://boomerang-hq.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/boomerang.png",
+      video: "",
+    },
     {
       title: "Culgust",
       href: "https://culgust.netlify.app/",
@@ -146,6 +152,7 @@ export const DATA = {
       image: "/culgust.png",
       video: "",
     },
+   
     {
       title: "Bank App Landing Page",
       href: "  https://bankapplandingpage.netlify.app/",
