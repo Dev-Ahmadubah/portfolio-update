@@ -21,6 +21,7 @@ export const DATA = {
     "Expo",
     "Redux",
     "Firebase",
+    "Supabase",
     "Tanstack",
     "Node.js",
     "Figma",
@@ -118,6 +119,23 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Dua GPT",
+      href: "https://dua-gpt.vercel.app/",
+      dates: "",
+      active: true,
+      description: "A customer loyalty program ",
+      technologies: ["React", "Typescript", "TailwindCSS", "Supabase", "Together AI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://boomerang-hq.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/dua-gpt.png",
+      video: "",
+    },
     {
       title: "Boomerang",
       href: "https://culgust.netlify.app/",
