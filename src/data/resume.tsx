@@ -124,12 +124,12 @@ export const DATA = {
       href: "https://dua-gpt.vercel.app/",
       dates: "",
       active: true,
-      description: "A customer loyalty program ",
+      description: "A chatbot that helps you with the Dua. ",
       technologies: ["React", "Typescript", "TailwindCSS", "Supabase", "Together AI"],
       links: [
         {
           type: "Website",
-          href: "https://boomerang-hq.com/",
+          href: "https://dua-gpt.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -137,11 +137,28 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Buslink",
+      href: "",
+      dates: "",
+      active: true,
+      description: "A website for tracker design to track bus location and route",
+      technologies: ["HTML", "Javascript", "TailwindCSS", "PHP", "MYSQL", 'ESP32'],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/buslink.png",
+      video: "",
+    },
+    {
       title: "Boomerang",
       href: "https://culgust.netlify.app/",
       dates: "",
       active: true,
-      description: "A customer loyalty program ",
+      description: "A Customer loyalty app that help bussiness track their customers purchase and rewards them. ",
       technologies: ["React", "Typescript", "TailwindCSS", "Firebase", "Tanstack"],
       links: [
         {
@@ -196,7 +213,7 @@ export const DATA = {
     {
       title: "Colormuse",
       href: "https://color-muse.vercel.app/",
-      dates: "April 2023 - September 2023",
+      dates: "",
       active: true,
       description: "Developed a color generator app",
       technologies: ["Next.js", "Javascript", "TailwindCSS"],
